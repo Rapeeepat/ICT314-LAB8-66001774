@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}หน้าแรก{% endblock %}
+
+{% block content %}
+
+<div class="hero-box mb-4">
+  <h1>ยินดีต้อนรับสู่เว็บไซต์รายวิชา ICT12367</h1>
+  <p>การพัฒนาเว็บแอปพลิเคชันด้วย Django และ Bootstrap</p>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-4">
+    <div class="card">
+      <img src="https://picsum.photos/400/250?1" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">สินค้า</h5>
+        <p class="card-text">รายละเอียดสินค้า</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="https://picsum.photos/400/250?2" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">บริการ</h5>
+        <p class="card-text">รายละเอียดบริการ</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="https://picsum.photos/400/250?3" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">เกี่ยวกับเรา</h5>
+        <p class="card-text">ข้อมูลเกี่ยวกับเว็บไซต์</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<h3 class="mt-4">แสดงแผนที่ Google Map</h3>
+<div class="ratio ratio-16x9 shadow rounded">
+<iframe src="https://www.google.com/maps?q=Bangkok&output=embed" title="Google Map"></iframe>
+</div>
+
+{% endblock %}
